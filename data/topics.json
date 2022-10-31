@@ -1,0 +1,49 @@
+[
+ {
+   "topic": "education",
+   "subtopic": "schools",
+   "filter": "amenity=school"
+ },
+ {
+   "topic": "education",
+   "subtopic": "kindergartens",
+   "filter": "amenity=kindergartens"
+ },
+ {
+   "topic": "healthcare",
+   "subtopic": "secondary_care",
+   "filter": "amenity=hospital or healthcare=hospital"
+ },
+ {
+   "topic": "healthcare",
+   "subtopic": "primary_care",
+   "filter": "amenity in (clinic, doctors) or healthcare in (clinic, doctors)"
+ },
+ {
+   "topic": "public_transport",
+   "subtopic": "tram_transit",
+   "filter": "station=subway or railway=tram_stop"
+ },
+ {
+   "topic": "public_transport",
+   "subtopic": "bus_transit",
+   "filter": "highway=bus_stop"
+ },
+ {
+   "topic": "supermarkets",
+   "subtopic": "supermarkets",
+   "filter": "show=supermarket"
+ },
+ {
+   "topic": "leisure",
+   "subtopic": "openspace",
+   "filter": "amenity=marketplace or leisure=park or landuse=forest"
+ },
+ {
+   "topic": "leisure",
+   "subtopic": "indoor",
+   "filter": "leisure in (fitness_centre, sports_centre)"
+ }
+]
+
+
