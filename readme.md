@@ -14,7 +14,9 @@ And it is with these challenges in mind that we responded to the **OSS4SDG** Hac
 Of course, there are limitations to our analysis and much room for improvement. Our centrality indicators could be improved, points of interest (essential services) could be better calibrated, and deeper attention could be paid to not just mobility by age but by ability and type. However, we believe that we have provided a valuable initial tool to understanding how access to urban services and, in a way, the right to the city by mobility varies across space. And further, where immediate steps can be taken to improve the greenness of a city, which is an increasingly important factor as we consider global warming and urban heat islands, carbon sinks, and equitable access to green and open space.
 
 
-### !VIDEO LINK HERE!
+Here is a video describing our projecting:
+
+[![Imgur](https://imgur.com/YDO8ZoX.png)](https://www.canva.com/design/DAFQO_br7c8/ytWZWXGwiha6msLLKPLZcg/watch?utm_content=DAFQO_br7c8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink "G15mC OSS4SDG hackathon OSS4SDG")
 
 ---
 
