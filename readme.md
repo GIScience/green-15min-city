@@ -25,12 +25,7 @@ The project is split in different components. Please refer to the respective rea
 
 ### 1 Urban green space index
 
-Urban green space data used within the scope of this project is based on existing research and methods by Christina Ludwig.
-
-The source code to produce the *urban greenness polygons* can be found here: [https://github.com/redfrexx/green_index](https://github.com/redfrexx/green_index)
-
-Paper on the method:
-
+The urban green space data used within the scope of this project is based on existing research and methods by [Ludwig et al. (2021)](https://www.mdpi.com/2220-9964/10/4/251). The source code to produce the *urban greenness polygons* can be found here: [https://github.com/redfrexx/green_index](https://github.com/redfrexx/green_index).
 
 
 ### 2 Betweenness analysis and 15min City index
