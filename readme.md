@@ -38,11 +38,11 @@ For a detailed overview of all the steps see the [readme file on centrality](rea
 
 The basis for our betweenness centrality analysis is openstreetmap data. An important component in using this data is to check the quality. We did this using the [ohsome quality analyst service](https://oqt.ohsome.org/). We used the indicator *Mapping saturation* to get detailed intrinsic information on the evolution of OpenStreetMap objects used within the scope of this project.
 
-### 4 Conflation of greenness and betweenness centrality & visualization
+### 4 Greenness attributes for routes and visualization
 
 The results of the centrality analysis are on a graph segment level. In the last step, these were intersected with the adjacent green values within the city AOIs. Together with the 15-minute city index of neighborhood locations, the segments were visualized as html files in a Python environment. 
 
-For more information see the [readme file on visualisation](readme_viz.md)
+For more information see the [readme file on visualisation](readme_routegreeness.md)
 
 ---
 
