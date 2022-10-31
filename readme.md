@@ -23,23 +23,15 @@ Of course, there are limitations to our analysis and much room for improvement. 
 
 The project is split in different components. Please refer to the respective readme's for more details and to reproduce the workflow.
 
-### 1 Urban green space index
+### 1 Urban green space mapping
 
-The urban green space data used within the scope of this project is based on existing research and methods by [Ludwig et al. (2021)](https://www.mdpi.com/2220-9964/10/4/251). The source code to produce the *urban greenness polygons* can be found here: [https://github.com/redfrexx/green_index](https://github.com/redfrexx/green_index).
-
+The urban green space data used within the scope of this project is based on existing research and methods by [Ludwig et al. (2021)](https://www.mdpi.com/2220-9964/10/4/251). The source code to produce the *urban greenness polygons* can be found on [https://github.com/redfrexx/green_index](https://github.com/redfrexx/green_index).
 
 ### 2 Betweenness analysis and 15min City index
 
-Generation of neighborhood origins and service destination within the urban AOIs is done in R. The network analysis component requires a compiled routing graph. For this we set up a local instance of [openrouteservice](https://openrouteservice.org/).
+Generation of neighborhood origins and service destination within the urban AOIs is done in R. The network analysis component requires a compiled routing graph. For this we set up a local instance of [openrouteservice](https://openrouteservice.org/). The betweenness centrality measure (also called targeted centrality) was calculated based on the method by [Petricola et al. (2022)](https://doi.org/10.3390/ijgi10040251). 
 
-Paper on the type of betweenness centrality measure that was used (also called targeted centrality):
-
-Petricola, S., Reinmuth, M., Lautenbach, S. et al. Assessing road criticality and loss of healthcare accessibility during floods: the case of Cyclone Idai, Mozambique 2019. Int J Health Geogr 21, 14 (2022). [https://doi.org/10.1186/s12942-022-00315-2](https://doi.org/10.1186/s12942-022-00315-2)
-
-
-For a detailed overview on all the steps see the following readme:
-
-[readme_centrality.md](readme_centrality.md)
+For a detailed overview of all the steps see the [readme file on centrality](readme_centrality.md).
 
 ### 3 OpenStreetMap completeness analysis
 
@@ -47,13 +39,9 @@ The basis for our betweenness centrality analysis is openstreetmap data. An impo
 
 ### 4 Conflation of greenness and betweenness centrality & visualization
 
-The results of the centrality analysis are on a graph segment level. In the last step, these were intersected with the adjacent green values within the city AOIs. 
+The results of the centrality analysis are on a graph segment level. In the last step, these were intersected with the adjacent green values within the city AOIs. Together with the 15-minute city index of neighborhood locations, the segments were visualized as html files in a Python environment. 
 
-Together with the 15-minute city index of neighborhood locations, the segments were visualized as html files in a Python environment. 
-
-For more information see the following readme:
-
-[readme_viz.md](readme_viz.md)
+For more information see the [readme file on visualisation](readme_viz.md)
 
 ---
 
@@ -65,3 +53,12 @@ For more information see the following readme:
 - Rutendo Mukaratirwa
 - Sukanya Randhawa
 - Marcel Reinmuth
+
+--- 
+
+## References 
+
+Ludwig, C.; Hecht, R.; Lautenbach, S.; Schorcht, M.; Zipf, A. Mapping Public Urban Green Spaces Based on OpenStreetMap and Sentinel-2 Imagery Using Belief Functions. ISPRS Int. J. Geo-Inf. 2021, 10, 251. [https://doi.org/10.3390/ijgi10040251](https://doi.org/10.3390/ijgi10040251)
+
+Petricola, S., Reinmuth, M., Lautenbach, S. et al. Assessing road criticality and loss of healthcare accessibility during floods: the case of Cyclone Idai, Mozambique 2019. Int J Health Geogr 21, 14 (2022). [https://doi.org/10.1186/s12942-022-00315-2](https://doi.org/10.1186/s12942-022-00315-2)
+
