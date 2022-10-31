@@ -3,7 +3,7 @@
 This Repository contains all code and resources that where used for the project *Green 15 Minute City*. 
 
 
-The project has been submitted to the hackathon challenge *OSS4SDG Sustainable Smart Cities* by a team from [HeiGIT](https://heigit.org/).
+The project has been submitted to the hackathon challenge *OSS4SDG Sustainable Smart Cities* by a team from [HeiGIT](https://heigit.org/) and [GIScience](https://www.geog.uni-heidelberg.de/gis/index_en.html).
 
 ## Motivation
 
