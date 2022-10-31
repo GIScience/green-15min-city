@@ -61,5 +61,5 @@ For more information see the [readme file on visualisation](readme_viz.md)
 
 Ludwig, C.; Hecht, R.; Lautenbach, S.; Schorcht, M.; Zipf, A. Mapping Public Urban Green Spaces Based on OpenStreetMap and Sentinel-2 Imagery Using Belief Functions. ISPRS Int. J. Geo-Inf. 2021, 10, 251. [https://doi.org/10.3390/ijgi10040251](https://doi.org/10.3390/ijgi10040251)
 
-Petricola, S., Reinmuth, M., Lautenbach, S. et al. Assessing road criticality and loss of healthcare accessibility during floods: the case of Cyclone Idai, Mozambique 2019. Int J Health Geogr 21, 14 (2022). [https://doi.org/10.1186/s12942-022-00315-2](https://doi.org/10.1186/s12942-022-00315-2)
+Petricola, S., Reinmuth, M., Lautenbach, S. et al. Assessing road criticality and loss of healthcare accessibility during floods: the case of Cyclone Idai, Mozambique 2019. Int J Health Geogr 21, 14 (2022). [https://doi.org/10.1186/s12942-022-00315-2](https://doi.org/10.1186/s12942-022-00315-2
 
