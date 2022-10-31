@@ -1,4 +1,4 @@
-# Betweenness analysis and 15min City index
+# Greenness attributes for routes and visualization
 
 This readme contains all information to the generating route greens attributes and generating visualisation maps for both central green routes and 15min city
 
