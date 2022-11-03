@@ -8,16 +8,7 @@ The project has been submitted to the hackathon challenge *OSS4SDG Sustainable S
 
 **Web App with visuals of our Results:**
 
-
-
-
-
-
-
-
-
-
-|[![Imgur](https://i.imgur.com/wJIag3c.png)](https://giscience.github.io/green-15min-city/data/vis/15mincity_mannheim.html "G15mC Web App Mannheim 15 Min idx")|[![Imgur](https://i.imgur.com/w6SdP35.png)](https://giscience.github.io/green-15min-city/data/vis/15mincity_barcelona.html "G15mC Web App Mannheim Greeness")|
+|[![Imgur](https://i.imgur.com/wJIag3c.png)](https://giscience.github.io/green-15min-city/data/vis/15mincity_mannheim.html "G15mC Web App Mannheim 15 Min idx")|[![Imgur](https://i.imgur.com/w6SdP35.png)](https://giscience.github.io/green-15min-city/data/vis/all_routes_mannheim_short_centrality>=20.html "G15mC Web App Mannheim Greeness")|
 |--|--|
 
 ## Motivation
